@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WYSIWYG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div contenteditable id="window">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam recusandae totam cum, autem, velit minus ad corrupti. Cum exercitationem, aliquid, suscipit voluptas, numquam placeat vel praesentium, qui consequatur inventore animi.
+	</div>
+	<form name="f1">
+		<select name="fonts">
+			<option>The New Roman</option>
+			<option>Arial</option>
+			<option>Verdana</option>
+			<option>Georgia</option>
+			<option>Lucida</option>					
+		</select>
+		<select name="sizer">
+			<option value="1">8</option>
+			<option value="2">10</option>
+			<option selected value="3">12</option>
+			<option value="4">14</option>
+			<option value="5">18</option>
+			<option value="6">24</option>
+			<option value="7">36</option>					
+		</select>
+	</form>
+	<div id="editing">
+		<img id="justifyLeft" src="img/text_align_left.png" alt="align-left">
+		<img id="justifyCenter" src="img/text_align_center.png" alt="align-center">
+		<img id="justifyRight" src="img/text_align_right.png" alt="align-right">
+		<img id="bold" src="img/text_bold.png" alt="bold">
+		<img id="italic" src="img/text_italic.png" alt="italic">
+		<img id="underline" src="img/text_underline.png" alt="underline">
+		<img id="slist" src="img/text_list_bullets.png" alt="bullet-list">
+		<img id="nlist" src="img/text_list_numbers.png" alt="number-list">
+		<img id="undo" src="img/edit_undo.png" alt="undo">
+		<img id="redo" src="img/edit_redo.png" alt="redo">
+		<img id="image" src="img/insert_image.png" alt="insert-image">
+	</div>
+	<script type="text/javascript" src="script.js"> </script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script src="dropimg.js"></script>
+</body>
+</html>
